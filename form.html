@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Document</title>
+ <style>
+  .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ebaad8;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #853478;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 15px;
+            color: #070707;
+        }
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #eff5f5;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color:   #853478;;
+            color: #fff;
+            border: none;
+            font-size: 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        textarea {
+            width:95%;
+            height:100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #eff5f5;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+            vertical-align: middle;
+            margin-bottom: 10px;
+        }
+        input[type="submit"]:hover {
+            background-color: #ebaad8;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+ <h1>Advance Diploma In Data Science And Machine Learning</h1>
+ <form>
+ <fieldset>
+  <legend>Personal Details</legend>
+ <label for="Full name">Full name :</label>
+ <input type="text" id="name" name="Full name" placeholder="Enter Your full name.." required>
+ <label for="name">Father name:</label>
+ <input type="text" id="name" name="name" placeholder="Enter Father name.." required>
+ <label for="name">Mother name:</label>
+<input type="text" id="name" name="name" placeholder="Enter mother name.." required>
+
+<label for="nationality">nationality:</label>
+ <input type="text" id="nationality" name="nationality" placeholder="Enter nationality." required>
+
+<label for="contact">Contact.no:</label>
+ <input type="text" id="contact" name="contact" placeholder="Enter contact.no." required>
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email" placeholder="Enter Email Id.." required>
+            
+ <label for="address">Address:</label>
+<textarea>Address....</textarea>
+
+ <label>Hobbies:</label>
+ <input type="checkbox" name="hobbies" value="Football"> Football 
+ <input type="checkbox" name="hobbies" value="Basketball"> Basketball
+ <input type="checkbox" name="hobbies" value="other"> other
+ </fieldset>
+
+ <fieldset>
+ <legend>Qualification</legend>
+ <label for="fname">1.Highest Qualification</label>
+ <select name="fname" id="fname">
+ <option value="10th">BSC</option>
+ <option value="12th">MSC</option></select>
+<br /><br />
+<label for="fname">2. Specialization:</label>
+<input type="text" id="fname" name="fname" /><br /><br />
+          
+<label for="fname">3.Institution</label>
+ <input type="text" id="fname" name="fname" /><br /><br />
+          
+<label for="fname">4.Grade</label>
+<input type="text" id="fname" name="fname" /><br /><br />
+ 5.Pursuing any higher education?:<br />
+<input type="radio" name="gender" />yes<br />
+<input type="radio" name="gender" />no<br />
+<textarea name="fname" id="" cols="30"></textarea>
+ <br /><br />
+
+ 6.Mention the Degree/Course for higher education:<br />
+<input type="text" id="fname" name="fname" /><br /><br />
+</fieldset>
+          
+ <fieldset>
+ <legend>Course</legend>
+<label for="fname">1.Why do you want to join this course?:</label>
+ <textarea name="fname" id=""></textarea>
+ <br /><br />
+          
+<label for="fname">2.Where did you learn about the course?:</label>
+ <input type="text" id="fname" name="fname" /><br /><br />
+          
+<label for="fname">3.your expectations from this course?:</label>
+<input type="text" id="fname" name="fname" /><br /><br />
+          
+<label for="fname">4.Which Job rolr are you looking for?:</label>
+<select name="fname" id="fname">
+<option value="10th">Data Scientist</option>
+ <option value="12th">Data Analyst</option>
+ </select>
+  <br /><br />
+ </fieldset>
+ <br />
+<input type="submit" value="Submit" />
+ </form>
+ </html>
